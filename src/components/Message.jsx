@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Message extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       text: 'Hello World',
