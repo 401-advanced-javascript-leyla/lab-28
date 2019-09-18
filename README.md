@@ -9,18 +9,21 @@
 * [submission PR](https://github.com/401-advanced-javascript-leyla/lab-28-props/pulls)
 
 ### Modules
-#### `Counter`
-The counter class extends React component and it has counter and checkNumber in its state.
-#### `Header`
-The header class extends React component and it will insert a header into the DOM
-#### `Footer`
-The footer class extends React component and it will insert a footer into the DOM
+#### `App`
+The App component will render the Message component to the DOM
+#### `Message`
+The Message component will render the text content to div tag
 
 ### Setup
 
 #### Running the app
 * `npm install`
 * `npm start`
+
+
+### Test
+* `npm test`
+
   
 
 

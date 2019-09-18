@@ -1,15 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Message from './Message.js';
+import App from './App.jsx';
 
-import './styles.css';
-
-class App extends React.Component {
-  render() {
-    return <Message />;
-  }
-}
+import '../style/index.css';
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
